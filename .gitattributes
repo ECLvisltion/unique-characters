@@ -1,0 +1,47 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Source code
+*.cs     text  diff=csharp
+*.csproj text merge=binary
+*.sln    text merge=binary eol=crlf
+
+# XML files (RimWorld Defs)
+*.xml text
+
+# Documentation
+*.md    text
+*.txt   text
+LICENSE text
+README  text
+
+# Graphics
+*.png  binary merge=binary
+*.jpg  binary merge=binary
+*.jpeg binary merge=binary
+*.gif  binary merge=binary
+
+# Audio
+*.wav binary merge=binary
+*.mp3 binary merge=binary
+*.ogg binary merge=binary
+
+# Archives
+*.zip binary merge=binary
+*.7z  binary merge=binary
+*.rar binary merge=binary
+
+# Compiled binaries
+*.dll binary merge=binary
+*.exe binary merge=binary
+*.pdb binary merge=binary
+
+# Unity/RimWorld specific
+*.asset  binary merge=binary
+*.prefab binary merge=binary
+*.unity  binary merge=binary
+
+# Exclude from export
+.gitattributes export-ignore
+.gitignore     export-ignore
+.git*          export-ignore
