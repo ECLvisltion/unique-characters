@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Unique Characters</name>
+  <author>ECLvisltion</author>
+  <packageId>eclvisltion.uniquecharacters</packageId>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <description>기본 RimWorld 모드 세팅 (C# + XML)</description>
+</ModMetaData>
